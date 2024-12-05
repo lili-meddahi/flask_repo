@@ -1,0 +1,50 @@
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <title>Find Your Price!</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="static/colorway.css">
+
+ </head>
+  <body>
+
+        <form action="/result" method="POST">
+          <H1>Find Your Price!</H1>
+          <!-- section inside white box -->
+
+          <section class="white-box">
+            <H2>Tell us about Your Car</H2>
+            <!-- Brand -->
+            <p> What brand is your car?</p>
+            <input type="text" name="brand" required>
+            <!-- model -->
+            <p> What is the model of your car?</p>
+            <input type="text" name="model" required>
+            <!-- Year -->
+            <p> What year is your car?</p>
+            <input type="number" name="year" required>
+            <!-- kmDriven -->
+            <p> How many miles are on your car?</p>
+            <input type="number" name="miles" required>
+            <!-- Transmission -->
+            <p> Is your car manual or automatic?</p>
+              <input type="radio" id="manual" name="transmission" value="manual" required>
+              <label for="manual">Manual</label><br>
+              <input type="radio" id="automatic" name="transmission" value="automatic" required>
+              <label for="automatic">Automatic</label><br>
+            <!-- Fuel Type -->
+            <p> Does your car run on diesel?</p>
+              <input type="radio" id="gasoline" name="fuelType" value="gasoline" equired>
+              <label for="gasoline">Gasoline</label><br>
+              <input type="radio" id="diesel" name="fuelType" value="diesel" required>
+              <label for="diesel">Diesel</label><br>
+          </section>
+          <!-- submit button -->
+          <section class="submit-button">
+            <input type="submit" value="Submit" class="submit-button">
+          </section>
+       </form>
+    </body>
+</html>
