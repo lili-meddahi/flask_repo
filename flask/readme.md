@@ -8,8 +8,7 @@
 
 READ ME
 ----------
-Welceome to the Find Your Price app! This application takes used car data(found on kaggle.com), and uses it to predict the value of your used car! You will input severall characteristics of your vehicle, and using Decision Tree Regression, the app will evaluate the asking price of your car!
-The application will also let you know the margin of error on its prediction, so you will have a good gauge of how much you can ask for if you were expecting more/less.
+Welcome to the Find Your Price app! This application takes used car data(found on kaggle.com), and uses it to predict the value of your used car. You will input several characteristics of your vehicle, and using Decision Tree Regression, the app will evaluate the asking price of your car.
 
 AUTHORS
 ---------
